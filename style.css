@@ -1,0 +1,454 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F6F5F2;
+}
+.navList p img{
+    width: 20px;
+    margin-right: 10px;
+}
+.navList{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+}
+.navList ul{
+   display: flex;
+   /* gap: 10px; */
+}
+.navList ul li{
+    list-style: none;
+
+}
+.navList li + li::before{
+    content: "|";
+    padding: 1.5rem;
+}
+.navList ul li a{
+    text-decoration: none;
+    color: #142B40;
+}
+.navList ul a:hover{
+    color: darkgreen;
+}
+
+.navBut{
+    width: 100px;
+    height: 30px;
+    border: 1px solid #402E7A;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.navBut a{
+    text-decoration: none;
+    color: #402E7A;
+}
+/****************************/
+main section:first-child{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    /* align-items: center; */
+    align-content: center;
+    width: 100%;
+}
+.graph{
+    width: 45%;
+    padding: 20px;
+    margin: 50px;
+}
+.graph p:first-child{
+    color: #127357;
+    width: 370px;
+    border: 1px solid #127357;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: #38b89439;
+    margin-bottom: 10px;
+}
+.graph h1{
+    font-size: 3rem;
+    color: #122E40;
+}
+.graph img{
+    width: 400px;
+    margin-top: 50px;
+}
+
+.explore{
+    background-image: url("./pexels-sebastians-731082.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.explore{
+    margin: 50px;
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    color: #ECEDEF;
+    /* position: relative; */
+}
+.explore p:first-child{
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+.explore p:nth-child(2){
+    font-size: 18px;
+}
+.explore a{
+    text-decoration: none;
+    color: #ECEDEF; 
+}
+.explore button{
+    width: 250px;
+    height: 70px;
+    border: none;
+    border-radius: 20px;
+    background-color: #F27405;
+    /* position: absolute; */
+    margin-top: 270px;
+}
+section:nth-child(2){
+    width: 100%;
+    height: 1250px;
+    background-color: #122E40;
+    border-radius: 40px;
+    padding: 80px;
+}
+.part1{
+    display: flex;
+    justify-content: space-between;
+}
+.part1 pre{
+    font-size: 2.5rem;
+    color: #ECEDEF;
+}
+.part1 a{
+    text-decoration: none;
+    color: #DFECF5;
+}
+.part1 button{
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #127357;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+}
+.part2{
+    margin: 80px;
+    display: flex;
+    gap: 60px;
+}
+.part2 span{
+    width: 450px;
+    height: 250px;
+    padding: 30px;
+    border-radius: 20px;
+}
+.part2 h3{
+    color: #DFECF5;
+}
+.part2 p{
+    color: #576675;
+    margin: 30px 0;
+}
+.part2 span:nth-child(2){
+    background-color: #2D4051;
+}
+.part3{
+    width:100%;
+    height: 600px;
+    background-color: #FFFFFF;
+    border-radius: 40px;   
+}
+.part3 span:first-child{
+    padding: 80px;
+    display: flex;
+    gap: 60px;
+}
+.part3 h3{
+    font-size: 2.9rem;
+    color: #122E40;
+}
+.part3 span p:first-child {
+    color: #127357;
+    margin-bottom: 30px;
+}
+.part3 span p:nth-child(2){
+    color: #142B40;
+}
+hr{
+    width: 90%;
+    margin: 0 60px;
+}
+.cards{
+    display: flex;
+    gap: 30px;
+    margin: 30px;
+    justify-content: center;
+}
+.cards div{
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    border: 1px solid #DCE3E9;
+    border-radius: 20px;
+    color: #122E40;
+    padding: 20px;
+}
+.cards p{
+    text-transform: capitalize;
+}
+.cards img{
+    width: 200px;
+}
+.cards div:nth-child(3){
+    background-color: #122E40;
+    color: #DFECF5;
+}
+.contents{
+    display: flex;
+    justify-content: center;
+    margin: 150px;
+}
+.contents img{
+    width: 400px;
+    border-radius: 20px;
+}
+.contents div img:first-child{
+    margin-bottom: 20px;
+}
+.contents div p:first-child{
+    color: #127357;
+}
+.contents div p:nth-child(2){
+    font-size: 3rem;
+    color: #122E40;
+}
+.contents div p:nth-child(3){
+    color: #2D4051;
+}
+.contents div p:nth-child(4){
+    color: #DCE3E9;
+    background-color: #127357;
+    padding: 30px;
+    border-radius: 10px;
+}
+.contents div p:nth-last-child(2){
+    color: #122E40;
+    background-color: #DCE3E9;
+    padding: 30px;
+    border-radius: 10px;
+}
+.contents div p:nth-last-child(1){
+    color: #122E40;
+    background-color: #DCE3E9;
+    padding:30px;
+    border-radius: 10px;
+}
+.contents div:nth-child(2) p{
+    margin-bottom: 20px;
+}
+.cards2{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px;
+}
+.cards2 span{
+    background-color: #DCE3E9;
+    padding: 90px;
+    text-align: center;
+    color: #122E40;
+    text-transform: capitalize;
+    border-radius: 15px;
+}
+.cards2 span:nth-child(2){
+    background-color: #122E40;
+    color: #DCE3E9;
+}
+.cards2 span p:first-child{
+    font-size: 2.7rem;
+}
+/*****************/
+.reviews {
+    width: 100%;
+    height: 950px;
+    background-color: #127357;
+    border-radius: 40px;
+    padding: 20px;
+    overflow: hidden;
+    position: relative; /* Added for the pseudo-element positioning */
+}
+.reviews::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 600px;/*height of the blur effect */
+    background: linear-gradient(to bottom, rgba(18, 115, 87, 0), rgba(18, 115, 87, 0.3), rgba(1, 21, 8, 0.5)); /* Gradient for lighter blur effect */
+    pointer-events: none;
+}
+.reviews .txt {
+    display: flex;
+    justify-content: space-around;
+    margin: 60px;
+}
+.reviews button {
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #122E40;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    margin: 30px;
+}
+.reviews button a {
+    text-decoration: none;
+    color: #DFECF5;
+}
+.reviews h1 {
+    color: #DCE3E9;
+    font-size: 3rem;
+}
+.grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 310px);
+    grid-template-rows: repeat(17, 30px);
+    justify-content: center;
+    margin: 0 auto;
+}
+.grid div {
+    background-color: #4E9489;
+    padding: 20px;
+    border-radius: 10px;
+}
+.grid div p:first-of-type {
+    color: #DCE3E9;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.grid div p:nth-child(7) {
+    color: #DCE3E9;
+    margin: 10px 0 30px 0;
+}
+.grid div a:last-child {
+    color: #DCE3E9;
+    font-weight: bold;
+}
+.checked {
+    color: orange;
+}
+.review1 {
+    grid-column: 1/2;
+    grid-row: 1/7;
+}
+.review2 {
+    grid-column: 2/3;
+    grid-row: 1/6;
+}
+.review3 {
+    grid-column: 3/4;
+    grid-row: 1/7;
+}
+.review4 {
+    grid-column: 1/2;
+    grid-row: 7/13;
+}
+.review5 {
+    grid-column: 2/3;
+    grid-row: 6/11;
+}
+.review6 {
+    grid-column: 3/4;
+    grid-row: 7/13;
+}
+.review7 {
+    background-color: lightgray;
+    grid-column: 1/2;
+    grid-row: 13/18;
+}
+.review8 {
+    grid-column: 2/3;
+    grid-row: 11/17;
+}
+.review9 {
+    grid-column: 3/4;
+    grid-row: 13/18;
+}
+/**************************/
+footer{
+    margin: 60px;
+}
+footer h1{
+    color: #142B40;
+    font-size: 3rem;
+}
+footer h1 span{
+    color: #127357;
+}
+.footer{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #122E40;
+    padding: 20px;
+}
+.footer ul li:active{
+    border-bottom: 2px solid #122E40;
+}
+.footer ul{
+    display: flex;
+    gap: 40px;
+}
+.footer ul li{
+    list-style: none;
+    font-size: 20px;
+    
+}
+.footer ul li a{
+    text-decoration: none;
+    color: #122E40;
+}
+.footer button a{
+    text-decoration: none;
+    color: #122E40;
+    font-size: 17px;
+}
+.footer button{
+    cursor: pointer;
+    padding: 15px;
+    border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 25px;
+}
+.sec-part{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.sec-part ul{
+    display: flex;
+    gap: 20px;
+}
+.sec-part ul li{
+    list-style: none;
+}
+.sec-part ul li a{
+    text-decoration: none;
+    color: #616264;
+    font-size: 18px;
+    text-transform: uppercase;
+}
